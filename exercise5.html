@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    header, nav, main, aside, footer {
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    header, nav, main, aside {
+      flex: 1;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      color: #fff;
+    }
+
+    nav {
+      background-color: #34a853;
+      color: #fff;
+    }
+
+    main {
+      flex: 2;
+      background-color: #e6ecff;
+    }
+
+    aside {
+      background-color: #e0e0e0;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+    }
+  </style>
+  <title>Exercise 5 & 6</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Exercises</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercise1.html">Exercise 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercise2.html">Exercise 2 & 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercise4.html">Exercise 4</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+  <header>
+    <h1>Website Heading</h1>
+  </header>
+
+  <nav>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Country</th>
+            <th scope="col">Occupation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>John Doe</td>
+            <td>25</td>
+            <td>USA</td>
+            <td>Software Engineer</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jane Smith</td>
+            <td>30</td>
+            <td>Canada</td>
+            <td>Graphic Designer</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Mike Johnson</td>
+            <td>22</td>
+            <td>UK</td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Sarah Brown</td>
+            <td>28</td>
+            <td>Australia</td>
+            <td>Marketing Specialist</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Chris Wilson</td>
+            <td>35</td>
+            <td>Germany</td>
+            <td>Project Manager</td>
+          </tr>
+        </tbody>
+      </table>
+  </nav>
+
+  <main>
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </main>
+
+  <aside>
+    <h2>Aside Content</h2>
+    <p>This is additional content or sidebar.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2024 Your Website</p>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
